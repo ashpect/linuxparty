@@ -1,0 +1,36 @@
+Vscode
+Homebrew 
+/bin/bash -c "$(curl -fsSL 
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+
+Nvm ::
+brew uninstall --ignore-dependencies node 
+brew uninstall --force node 
+brew update
+brew install nvm 
+mkdir ~/.nvm
+vim ~/.bash_profile 
+#add this
+	export NVM_DIR=~/.nvm
+	source $(brew --prefix nvm)/nvm.sh
+source ~/.bash_profile
+
+Node :: [Node v18.7.0 with (npm v8.19.2) ]
+nvm ls-remote 
+
+python3 
+Pip3
+Pythonvenv
+
+Ohmyzsh
+Xcode Command line tools
+Vs code extensions
+
+Extensions
+
+
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> 
+/Users/<name>/.zprofile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
